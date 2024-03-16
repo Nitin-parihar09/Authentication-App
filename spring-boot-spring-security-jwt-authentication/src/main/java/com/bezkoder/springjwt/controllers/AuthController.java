@@ -52,6 +52,7 @@ public class AuthController {
 	@Autowired
 	JwtUtils jwtUtils;
 	
+	
 	@GetMapping("/google")
     public ResponseEntity<String> googleLoginSuccess() {
         // Handle Google login success
